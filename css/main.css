@@ -10,3 +10,12 @@
         position: relative;
         padding: 4px;     /* Shows as a border around the carousel */
 }
+.anchor {
+	display:block;
+	height: 13rem;
+	margin-top: -13rem;
+	visibility: hidden;
+}
+.customFooter p{
+	margin-left: 23%;
+}
