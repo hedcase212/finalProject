@@ -1,0 +1,12 @@
+#body {
+	background-color: gray;
+	margin-top: 7rem;
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.carousel {
+        background-color:white;
+        position: relative;
+        padding: 4px;     /* Shows as a border around the carousel */
+}
