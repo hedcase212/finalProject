@@ -26,6 +26,7 @@ $(document).ready(function(){
 		
 		
 		
+		
    });	
 })
         
@@ -65,5 +66,4 @@ $(document).on('click', 'a.controls', function(){
 	return false;
 });
 	
-
 

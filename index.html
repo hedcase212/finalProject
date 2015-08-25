@@ -21,23 +21,30 @@
   </head>
   <body id="body">
   <!-- Begin Navbar -->
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-fixed-top navCss burger">
   <div class="container">
     <a class="navbar-brand" href="#">Brand</a>
   </div>
   </nav>
+  <!-- Start Site Nav -->
+  <section class="siteNav">
+  <div class="container">
+   <div class="list-group">
+      <button type="button" class="list-group-item nbkgrnd"><a href="#Section1">Section 1</a></button>
+      <button type="button" class="list-group-item nbkgrnd2"><a href="#Section2">Section 2</a></button>
+      <button type="button" class="list-group-item nbkgrnd"><a href="#Section3">Section 3</a></button>
+      <button type="button" class="list-group-item nbkgrnd2"><a href="#Section4">Section 4</a></button> 
+      <button type="button" class="list-group-item nbkgrnd"><a href="#Section5">Section 5</a></button>
+      <button type="button" class="list-group-item nbkgrnd2"><a href="#Section6">Section 6 <a></button>
+       <button type="button" class="list-group-item nbkgrnd"><a href="#Section7">Picture Gallery <a></button>
+   </div>
+  </div>
+  </section>
   
 
   <!-- Begin Carousel -->
     <div class="container">
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    </ol>
-
+      <div id="carousel-example-generic" class="carousel slide bkgrnd" data-ride="carousel">
     <!-- Wrapper for slides -->
     <div id="carousel-inner" class="carousel-inner" role="listbox">
       <div class="item active">
@@ -78,17 +85,18 @@
 <div class="container">
  <div class="row">
  <span class="anchor" id="Section1"></span>
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-6 col-md-4 ">
     <div class="thumbnail">
       <img src="http://placehold.it/350x150" alt="...">
-      <div class="caption">
+      <div class="caption bkgrnd">
         <h3>Section 1</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
        <p><a href="#" class="btn btn-primary" role="button" data-toggle="modal" data-target="#myModal3">Button</a></p>
         </div>
       </div>
@@ -97,7 +105,7 @@
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
       <img src="http://placehold.it/350x150" alt="...">
-      <div class="caption">
+      <div class="caption bkgrnd">
         <h3>Section 2</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -113,7 +121,7 @@
     <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
       <img src="http://placehold.it/350x150" alt="...">
-      <div class="caption">
+      <div class="caption bkgrnd">
         <h3>Section 3</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -121,7 +129,7 @@
         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+        <p><a href="#" class="btn btn-primary" role="button" data-toggle="modal" data-target="#myModal4">Button</a></p>
         </div>
       </div>
     </div>
@@ -129,7 +137,7 @@
     <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
       <img src="http://placehold.it/350x150" alt="...">
-      <div class="caption">
+      <div class="caption bkgrnd">
         <h3>Section 4</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -145,7 +153,7 @@
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
       <img src="http://placehold.it/350x150" alt="...">
-      <div class="caption">
+      <div class="caption bkgrnd">
         <h3>Section 5</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -161,7 +169,7 @@
     <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
       <img src="http://placehold.it/350x150" alt="...">
-      <div class="caption">
+      <div class="caption bkgrnd">
         <h3>Section 6</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -210,12 +218,36 @@
     </div>
   </div>
 </div>
+<!-- Bucket Modal -->
+<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Our Bucket List!</h4>
+      </div>
+      <div class="modal-body">
+      <div class="list-group">
+        <button type="button" class="list-group-item"><a href="">Bucket Item 1</a></button>
+        <button type="button" class="list-group-item"><a href="">Bucket Item 2</a></button>
+        <button type="button" class="list-group-item"><a href="">Bucket Item 3</a></button>
+        <button type="button" class="list-group-item"><a href="">Bucket Item 4</a></button>  
+      </div>
+     
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- Begin Picture Gallery -->
- <div class="container">    
-        <article class="container picsofus">
+<span class="anchor" id="Section7"></span>
+ <div class="container pgbkgrnd">    
+        <article class="picsofus bkgrnd">
           <div class="row" style="text-align:center; margin-bottom:40px;">
-              <h3 style="font-family:arial; font-weight:bold; font-size:30px;">
-                  <a style="text-decoration:none; color:#666;" href="http://fearlessflyer.com/create-a-responsive-photo-gallery-with-bootstrap">Picture Gallery</a>
+              <h3 style="font-family:comic; font-weight:bold; font-size:30px;">
+                  <a style="text-decoration:none; color:#666;">Picture Gallery</a>
               </h3>
           </div>
         <ul id="pg" class="row pg">
@@ -262,8 +294,8 @@
     </div><!-- /.modal -->
 <!-- End Picture Gallery -->
   <footer class="customFooter">
-  <div class="row" style="text-align:center; margin-bottom:40px;">
-              <h3 style="font-family:arial; font-weight:bold; font-size:30px;">
+  <div class="row" style="text-align:center; margin-bottom:20px;">
+              <h3 style="font-family:arial;">
                   <a style="text-decoration:none; color:#666;" href="http://fearlessflyer.com/create-a-responsive-photo-gallery-with-bootstrap">&copy; Copyright Casey Mcvay 2015</a>
               </h3>
           </div>

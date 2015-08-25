@@ -1,19 +1,42 @@
 #body {
 	background-color: gray;
 	margin-top: 7rem;
+	background: linear-gradient(to right, grey, white, orange);
+}
+.navCss {
+	background: linear-gradient(to left, grey, white, orange);
+
 }
 .carousel .item img {
     margin: 0 auto; /* Align slide image horizontally center */
 }
 .carousel {
-        background-color:white;
-        position: relative;
-        padding: 4px;     /* Shows as a border around the carousel */
+    background-color:white;
+    position: relative;
+    padding: 4px;     /* Shows as a border around the carousel */
+}
+.bkgrnd {
+	background: linear-gradient(270deg,lightgrey,orange);
+	margin-top:3px;
+}
+.bkgrnd2 {
+	background: linear-gradient(90deg,lightgrey,orange);
+	margin-top:3px;
+}
+.nbkgrnd {
+	background: linear-gradient(270deg,lightgrey,orange);
+}
+.nbkgrnd2 {
+	background: linear-gradient(90deg,lightgrey,orange);
+}
+.pgbkgrnd {
+	border-width: 2px;
+	border-color: white;
 }
 .anchor {
 	display:block;
-	height: 13rem;
-	margin-top: -13rem;
+	height: 6rem;
+	margin-top: -6rem;
 	visibility: hidden;
 }
 .customFooter p{
@@ -58,20 +81,4 @@ font-weight:bold;
 .next {
 float:right;
 text-align:right;
-}
-/*override modal for demo only*/
-/*.modal-dialog {
-  max-width:500px;
-  padding-top: 90px;
-}
-@media screen and (min-width: 768px){
-  .modal-dialog {
-      width:500px;
-      padding-top: 90px;
-  }          
-}
-@media screen and (max-width:1450px){
-  #ads {
-      display:none;
-  }*/
 }
