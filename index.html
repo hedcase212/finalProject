@@ -8,6 +8,7 @@
     <title>finalProject</title>
 
     <!-- Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 
@@ -20,38 +21,12 @@
   </head>
   <body id="body">
   <!-- Begin Navbar -->
-   <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">HB<sup>2</sup></a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav hidden-sm hidden-md hidden-lg">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#Section1">Section 1</a></li>
-            <li><a href="#Section2">Section 2</a></li>
-            <li><a href="#Section3">Section 3</a></li>
-            <li><a href="#Section4">Section 4</a></li>
-            <li><a href="#Section5">Section 5</a></li>
-            <li><a href="#Section6">Section 6</a></li>
-          </ul>
-        </li>
-      </ul>
-   </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Brand</a>
+  </div>
+  </nav>
+  
 
   <!-- Begin Carousel -->
     <div class="container">
@@ -61,43 +36,30 @@
       <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
       <li data-target="#carousel-example-generic" data-slide-to="1"></li>
       <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="5"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div id="carousel-inner" class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="http://placehold.it/1350x350" alt="...">
+        <img src="http://placehold.it/350x350" alt="...">
         <!-- <div class="carousel-caption"><a href="#Section1"> Section 1</a>
         </div> -->
       </div>
       <div class="item">
-        <img src="http://placehold.it/1350x350" alt="...">
+        <img src="http://placehold.it/350x350" alt="...">
         <!-- <div class="carousel-caption"><a href="#Section2"> Section 2</a>
         </div> -->
       </div>
       <div class="item">
-        <img src="http://placehold.it/1350x350" alt="...">
+        <img src="http://placehold.it/350x350" alt="...">
         <!-- <div class="carousel-caption"><a href="#Section3"> Section 3</a>
         </div> -->
       </div>
-       <div class="item">
-        <img src="http://placehold.it/1350x350" alt="...">
-        <!-- <div class="carousel-caption"><a href="#Section4"> Section 4</a>
-        </div> -->
-      </div>
-       <div class="item">
-        <img src="http://placehold.it/1350x350" alt="...">
-        <!-- <div class="carousel-caption"><a href="#Section5"> Section 5</a>
+       <!-- <div class="item">
+        <img src="http://placehold.it/350x350" alt="...">
+        <div class="carousel-caption"><a href="#Section4"> Section 4</a>
+        </div>
       </div> -->
-       </div>
-       <div class="item">
-        <img src="http://placehold.it/1350x350" alt="...">
-        <!-- <div class="carousel-caption"><a href="#Section6"> Section 6</a>
-      </div> -->
-    </div>
   </div>
 
     <!-- Controls -->
@@ -127,7 +89,7 @@
         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-       <p><a href="#" class="btn btn-primary" role="button" data-toggle="modal" data-target="#myModal">Button</a></p>
+       <p><a href="#" class="btn btn-primary" role="button" data-toggle="modal" data-target="#myModal3">Button</a></p>
         </div>
       </div>
     </div>
@@ -214,7 +176,7 @@
   </div>
 
 </div><!-- end gallery -->
-<!-- Modal -->
+<!--  Movie Modal -->
 <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -231,8 +193,8 @@
     </div>
   </div>
 </div>
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<!-- Map Modal -->
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -248,8 +210,63 @@
     </div>
   </div>
 </div>
+<!-- Begin Picture Gallery -->
+ <div class="container">    
+        <article class="container picsofus">
+          <div class="row" style="text-align:center; margin-bottom:40px;">
+              <h3 style="font-family:arial; font-weight:bold; font-size:30px;">
+                  <a style="text-decoration:none; color:#666;" href="http://fearlessflyer.com/create-a-responsive-photo-gallery-with-bootstrap">Picture Gallery</a>
+              </h3>
+          </div>
+        <ul id="pg" class="row pg">
+            <li id="pg" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="http://placehold.it/350x350">
+            </li>
+            <li id="pg" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="http://placehold.it/350x350">
+            </li>
+            <li id="pg" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="http://placehold.it/350x350">
+            </li>
+            <li id="pg" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="http://placehold.it/350x350">
+            </li>
+            <li id="pg" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="http://placehold.it/350x350">
+            </li>
+            <li id="pg" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="http://placehold.it/350x350">
+            </li>
+            <li id="pg" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="http://placehold.it/350x350">
+            </li>
+            <li id="pg" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="http://placehold.it/350x350">
+            </li>
+             <li id="pg" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="http://placehold.it/350x350">
+            </li>
+           
+          </ul>   
+          </article>          
+    </div> <!-- /container -->
+    
+     
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">         
+          <div class="modal-body">                
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+<!-- End Picture Gallery -->
   <footer class="customFooter">
-    <p>&copy; Copyright Casey Mcvay 2015</p>
+  <div class="row" style="text-align:center; margin-bottom:40px;">
+              <h3 style="font-family:arial; font-weight:bold; font-size:30px;">
+                  <a style="text-decoration:none; color:#666;" href="http://fearlessflyer.com/create-a-responsive-photo-gallery-with-bootstrap">&copy; Copyright Casey Mcvay 2015</a>
+              </h3>
+          </div>
   </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -257,5 +274,8 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/js/bootstrap.min.js"></script>
+    <script src="photo-gallery.js"></script>
   </body>
 </html>
