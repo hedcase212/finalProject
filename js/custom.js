@@ -1,4 +1,4 @@
-$(document).ready(function(){        
+$(document).ready(function(){ 
 	$('li img').on('click',function(){
 		var src = $(this).attr('src');
 		var img = '<img src="' + src + '" class="img-responsive"/>';
@@ -22,11 +22,6 @@ $(document).ready(function(){
 		$('#myModal').on('hidden.bs.modal', function(){
 			$('#myModal .modal-body').html('');
 		});
-		var offset = $('.target').offset();
-		var scrollto = offset.top - 60; // minus fixed header height
-		$('html, body').animate({scrollTop:scrollto}, 0);
-		
-		
 		
 		
 		

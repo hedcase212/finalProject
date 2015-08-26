@@ -3,12 +3,20 @@
 	margin-top: 7rem;
 	background: linear-gradient(to right, grey, white, orange);
 }
+audio {
+	margin-top: 13px;
+	margin-left:-40px;
+}
 .navCss {
 	background: linear-gradient(to left, grey, white, orange);
 
 }
 .carousel .item img {
     margin: 0 auto; /* Align slide image horizontally center */
+}
+#height {
+    margin: 0 auto; /* Align slide image horizontally center */
+    height: 315px;
 }
 .carousel {
     background-color:white;
