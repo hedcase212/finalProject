@@ -9,7 +9,6 @@ audio {
 }
 .navCss {
 	background: linear-gradient(to left, grey, white, orange);
-
 }
 .carousel .item img {
     margin: 0 auto; /* Align slide image horizontally center */
@@ -41,13 +40,26 @@ audio {
 	border-width: 2px;
 	border-color: white;
 }
+.thumbnail {
+	margin-top: 0rem;
+}
 .anchorz {
 	display:block;
 	height: 7rem;
-	width:100%;
+	/*width:100%;*/
 	margin-top: -7rem;
 	visibility: hidden;
 }
+.siteNav {
+	margin-bottom: 0rem;
+}
+/*span.anchorz:before {
+    display: inline;
+    content: "";
+    height: 10em;
+    margin-top: -10em;
+    visibility: hidden;
+}*/
 .customFooter p{
 	margin-left: 23%;
 }
